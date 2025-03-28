@@ -1,0 +1,255 @@
+* {
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal
+}
+
+.App {
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1026px;
+    background-image: url("/public/couch.png");
+}
+
+.runningString {
+    margin-top: 0px;
+    width: 1920px;
+    height: 40px;
+    background-color: #839D9A;
+}
+
+.runningString>p {
+    padding-top: 5px;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav>a:nth-child(1)>img {
+    padding-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+nav>a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+nav>a:nth-child(2)>img {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+nav>a:nth-child(3),
+a:nth-child(4),
+a:nth-child(5) {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+nav>a:nth-child(6) {
+    margin-top: 20px;
+    margin-left: 805px;
+    margin-right: 35px;
+}
+
+nav>a:nth-child(6)>img {
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+nav>a:nth-child(7)>img {
+    position: relative;
+    top: 5px;
+    right: 0px;
+}
+
+nav>a:nth-child(7) {
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+nav>a:nth-child(8),
+a:nth-child(9) {
+    margin-top: 25px;
+    margin-right: 35px;
+}
+
+.searchBar {
+    background-color: white;
+    border-radius: 30px;
+    width: 1271px;
+    height: 50px;
+    margin-left: 324px;
+    margin-top: 49px;
+}
+
+.searchBar>img {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.searchBar>input {
+    width: 1200px;
+    position: relative;
+    top: -7px;
+    left: 15px;
+    font-size: 14px;
+    border: none;
+}
+
+.searchBar>input:focus {
+    border: none;
+    outline: none;
+}
+
+.global>h1 {
+    width: 903px;
+    height: 137px;
+    margin-top: 50px;
+    padding: 10px 50px 10px 50px;
+    margin-left: 516px;
+    font-size: 96px;
+}
+
+.regAndKat {
+    margin-top: 150px;
+}
+
+.regAndKat>a:nth-child(1) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+    width: 377px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 220px;
+}
+
+.regAndKat>a:nth-child(2) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    padding: 20px 50px 20px 50px;
+    width: 377px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+
+.forCards {
+    margin-top: 100px;
+    display: flex;
+    width: 700px;
+    margin-left: 206px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.card {
+    background-color: white;
+    width: 160px;
+    height: 212px;
+    border-radius: 15px;
+}
+
+.card>figure {
+    position: relative;
+    top: -30px;
+    left: 85px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #839D9A;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: 500;
+    color: white;
+    z-index: 2;
+}
+
+.card>img {
+    position: relative;
+    top: -80px;
+    z-index: 1;
+}
+
+.card>p:nth-child(3) {
+    margin-top: -80px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 22px;
+}
+
+.card>p:nth-child(4) {
+    margin-top: -10px;
+    margin-left: 22px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card>p:nth-child(5) {
+    margin-left: 22px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sale {
+    margin-left: 220px;
+    margin-top: 20px;
+    width: 562px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sale>p:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sale>span:nth-child(2) {
+    width: 1px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    background-color: black;
+}
+
+.sale>p:nth-child(3) {
+    font-weight: 600;
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.sale>p:nth-child(4) {
+    margin-right: 3px;
+    font-weight: 900;
+    font-size: 16px;
+}
