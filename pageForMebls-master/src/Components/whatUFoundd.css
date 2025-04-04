@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    margin-left: 220px;
+}
+
+.wrapper>h1 {
+    top: 100px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.collection {
+    margin-right: 31px;
+    width: 781px;
+    height: 480px;
+    background-color: #B6C3C2;
+    border-radius: 15px;
+}
+
+.forText {
+    display: flex;
+    flex-direction: row;
+    width: 781px;
+    margin-top: 15px;
+}
+
+.forText>p {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 25%;
+    margin-right: 24%;
+}
+
+.proposition {
+    width: 678px;
+    height: 480px;
+    background-color: #B6C3C2;
+    border-radius: 15px;
+}
+
+.proposition>.forText>p {
+    margin-right: 12%;
+}
+
+.orangeCouch {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    width: 1560px;
+    height: 364px;
+    border-radius: 15px;
+
+}
+
+.forLink {
+    position: relative;
+    left: -70px;
+    width: 80px;
+    height: 364px;
+    background-color: #B6C3C2;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.go {
+    width: 40px;
+    margin-top: 200%;
+    margin-left: 20px;
+    height: 40px;
+}
